@@ -1,0 +1,12 @@
+[package]
+name = "icebreaker/my_first_pkg"
+version = "0.0.1"
+description = "The description of the package"
+license = "ISC"
+
+[dependencies]
+"_/cowsay" = "0.2.0"
+
+[[module]]
+name = "entry"
+source = "entry.wasm"
