@@ -1,8 +1,11 @@
 [package]
-name = "guessing_game"
+name = "hello_world"
 version = "0.1.0"
+authors = ["The wasm-bindgen Developers"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
 
 [dependencies]
+wasm-bindgen = "0.2.74"
